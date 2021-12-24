@@ -8,7 +8,7 @@ export default function Index() {
   return <>
     <Header />
     <Features />
-    <div className='bg-blue-400 flex justify-center py-16'>
+    <div className='bg-blue-400 flex justify-center py-16 '>
       <Tokenomics />
     </div>
 

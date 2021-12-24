@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { ChevronRightIcon } from "@heroicons/react/solid";
 
 const navigation = [
   { name: "About", href: "#" },
@@ -11,10 +10,8 @@ const navigation = [
   { name: "How to Buy", href: "#" },
 ];
 
-export default function header() {
+export default function Header() {
   return (
-    <div className="relative bg-blue-400 overflow-hidden">
-      <div className="relative pt-6 pb-16 sm:pb-24">
         <Popover>
           <nav
             className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
@@ -101,33 +98,5 @@ export default function header() {
             </Popover.Panel>
           </Transition>
         </Popover>
-
-        <main className="mt-10 md:mt-20">
-          <div className="mx-auto max-w-7xl">
-            <div className="md:grid md:grid-cols-12 md:gap-8">
-              <div className="px-4 sm:px-6 md:max-w-2xl md:mx-10px md:col-span-6 md:text-left flex">
-                <div>
-                  <h1 className=" text-4xl tracking-normal font-extrabold text-white sm:mt-5 sm:leading-none md:mt-10 lg:text-5xl xl:text-6xl">
-                    <span className="md:block">
-                      Meet SURFER INU, the Inu surfing its way through the
-                      Metaverse!
-                    </span>
-                  </h1>
-                  <p className="mt-3 text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    Surfer Inu ($SURFINU) is a highly deflationary token on the
-                    Ethereum Blockchain that never stops pumping through the use
-                    of true deflationary techniques and further income
-                    generation.
-                  </p>
-                </div>
-              </div>
-              <div className="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
-                <div className="bg-white sm:max-w-md sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden"></div>
-              </div>
-            </div>
-          </div>
-        </main>
-      </div>
-    </div>
   );
 }

@@ -9,7 +9,11 @@ module.exports = {
         blue: {
           400: '#1085D9',
         }
-      }
+      },
+      height: {
+        'wave': '42rem',
+      },
+      
     },
   },
   plugins: [

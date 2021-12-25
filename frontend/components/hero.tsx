@@ -2,10 +2,10 @@ import Header from "./header";
 
 export default function Hero() {
   return (
-    <div className="relative bg-blue-400 h-screen overflow-hidden">
-      <div className="relative pt-6">
+    <div className="relative bg-blue-400 pb-24 overflow-hidden pl-12">
+      {/* <div className="relative pt-6">
         <Header />
-      </div>
+      </div> */}
       <main className=" relative mt-20 mx-10 max-w-7xl">
         <div
           className="md:grid md:grid-cols-12 
@@ -18,8 +18,8 @@ export default function Hero() {
                   tracking-wide
                    sm:mt-5 md:mt-4 lg:text-5xl xl:text-6xl"
               >
-                <span className="md:block">
-                  SURFER INU, RIDING THE WAVE OF THE METAVERSE
+                <span className="md:block my-12">
+                  Meet SURFER INU, riding the wave of the Metaverse!
                 </span>
               </h1>
               <p className="mt-3 text-base text-white sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
@@ -27,16 +27,16 @@ export default function Hero() {
                 Ethereum Blockchain that never stops pumping through the use of
                 true deflationary techniques and further income generation.
               </p>
-              <div className="grid grid-cols-2 gap-8">
-                <a className="mt-6 bg-orange-500 hover:bg-orange-400 
+              <div className="grid grid-cols-2 gap-8 mt-12">
+                <a className="align-middle bg-orange-500 hover:bg-orange-400 
                 text-white
-                text-center
-                font-bold py-2 px-4 border-b-4 border-orange-700 hover:border-orange-900 rounded" href="https://uniswap.org/">
+                text-center text-xl tracking-wider
+                font-bold py-6 border-b-4 border-orange-700 hover:border-orange-900 rounded-lg" href="https://uniswap.org/">
                   Buy on Uniswap
                 </a>
-                <a className="mt-6 bg-orange-500 hover:bg-orange-400 text-white 
-                text-center
-                font-bold py-2 px-4 border-b-4 border-orange-700 hover:border-orange-900 rounded">
+                <a className=" bg-orange-500 hover:bg-orange-400 text-white 
+                text-center text-xl tracking-wider
+                font-bold py-6 border-b-4 border-orange-700 hover:border-orange-900 rounded-lg">
                   Documentation
                 </a>
               </div>

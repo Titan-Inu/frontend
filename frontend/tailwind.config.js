@@ -12,6 +12,7 @@ module.exports = {
       },
       height: {
         'wave': '42rem',
+        'shiba': '40rem',
       },
       
     },

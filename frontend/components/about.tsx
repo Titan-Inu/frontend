@@ -2,7 +2,7 @@
 
 export default function About() {
   return (
-    <div className="bg-blue-400 h-5/6 py-24 overflow-hidden">
+    <div className="bg-blue-400 h-5/6 py-24 overflow-hidden ">
       <div className="bg-white relative left-16 h-4/6 rounded-2xl pt-12 px-8 overflow-hidden">
         <h1 className="font-extrabold text-5xl
                   tracking-wider">

@@ -2,16 +2,16 @@ import Header from "./header";
 
 export default function Hero() {
   return (
-    <div className="relative bg-blue-400 pb-24 overflow-hidden pl-12">
+    <div className=" flex relative bg-blue-400 pb-24 overflow-hidden pl-12 ">
       {/* <div className="relative pt-6">
         <Header />
       </div> */}
-      <main className=" relative mt-20 mx-10 max-w-7xl">
+      <main className="relative mt-20 mx-10 max-w-7xl ">
         <div
           className="md:grid md:grid-cols-12 
           md:gap-8"
         >
-          <div className="px-4 sm:px-6 md:max-w-2xl md:col-span-7 md:text-left flex">
+          <div className="px-4 sm:px-6 md:max-w-2xl md:col-span-7 md:text-left flex ">
             <div>
               <h1
                 className=" font-extrabold text-white
@@ -44,6 +44,9 @@ export default function Hero() {
           </div>
         </div>
       </main>
+      <div className="absolute flex w-full justify-end pr-64 pt-8 z-50 items-center">
+        <img src='./shibaSurf.png' className="h-shiba"></img>
+      </div>
     </div>
   );
 }

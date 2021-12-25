@@ -17,7 +17,8 @@ export default function Hero() {
             <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
                 <a
-                  href="#"
+                  href="https://uniswap.org/"
+                  target="_blank"
                   className="w-full flex items-center justify-center px-8 py-6 font-bold
                   bg-orange-500 hover:bg-orange-400 text-white text-xl tracking-wider border-b-4 border-orange-700 hover:border-orange-900 rounded-lg"
                 >

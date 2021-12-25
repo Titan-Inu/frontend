@@ -2,7 +2,7 @@ import Header from "./header";
 
 export default function Hero() {
   return (
-    <div className=" flex relative bg-blue-400 pb-24 overflow-hidden pl-12 ">
+    <div className=" flex relative bg-blue-400 pb-24 overflow-hidden pl-12 pointer-events-auto ">
       {/* <div className="relative pt-6">
         <Header />
       </div> */}
@@ -27,14 +27,14 @@ export default function Hero() {
                 Ethereum Blockchain that never stops pumping through the use of
                 true deflationary techniques and further income generation.
               </p>
-              <div className="grid grid-cols-2 gap-8 mt-12">
-                <a className="align-middle bg-orange-500 hover:bg-orange-400 
+              <div className="grid grid-cols-2 gap-8 mt-12 ">
+                <a className="align-middle bg-orange-500 hover:bg-orange-400  pointer-events-auto z-50 cursor-pointer
                 text-white
                 text-center text-xl tracking-wider
-                font-bold py-6 border-b-4 border-orange-700 hover:border-orange-900 rounded-lg" href="https://uniswap.org/">
+                font-bold py-6 border-b-4 border-orange-700 hover:border-orange-900 rounded-lg" target="_blank" href="https://uniswap.org/">
                   Buy on Uniswap
                 </a>
-                <a className=" bg-orange-500 hover:bg-orange-400 text-white 
+                <a className=" bg-orange-500 hover:bg-orange-400 text-white pointer-events-auto z-50 cursor-pointer
                 text-center text-xl tracking-wider
                 font-bold py-6 border-b-4 border-orange-700 hover:border-orange-900 rounded-lg">
                   Documentation
@@ -44,7 +44,7 @@ export default function Hero() {
           </div>
         </div>
       </main>
-      <div className="absolute flex w-full justify-end pr-36 pt-12 z-50 items-center">
+      <div className="absolute flex w-full justify-end pr-36 pt-12 items-center z-10">
         <img src='./shibaSurf.png' className="h-shiba"></img>
       </div>
     </div>

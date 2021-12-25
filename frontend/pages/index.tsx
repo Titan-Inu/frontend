@@ -10,7 +10,7 @@ export default function Index() {
       <Nav/>
       <Hero/>
       <About/>
-     <div className='bg-blue-400 flex justify-center py-16 '>
+     <div className='bg-blue-400 flex justify-center py-32 '>
       <Tokenomics />
     </div>
     </body>

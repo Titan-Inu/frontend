@@ -11,8 +11,8 @@ module.exports = {
         }
       },
       height: {
-        'wave': '42rem',
-        'shiba': '40rem',
+        'wave': '32rem',
+        'shiba': '36rem',
       },
       
     },

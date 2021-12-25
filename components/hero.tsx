@@ -44,7 +44,7 @@ export default function Hero() {
           </div>
         </div>
       </main>
-      <div className="absolute flex w-full justify-end pr-64 pt-8 z-50 items-center">
+      <div className="absolute flex w-full justify-end pr-36 pt-12 z-50 items-center">
         <img src='./shibaSurf.png' className="h-shiba"></img>
       </div>
     </div>

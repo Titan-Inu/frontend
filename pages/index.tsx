@@ -11,7 +11,7 @@ export default function Index() {
       <Nav/>
       <Hero1/>
       <About/>
-     <div className='bg-blue-400 flex justify-center py-32 '>
+     <div className='bg-blue-400 flex justify-center lg:py-32 lg:px-12 px-12 pb-12'>
       <img src='./tokenomics.svg' />
     </div>
     </body>

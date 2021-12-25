@@ -20,7 +20,7 @@ export default function Hero() {
                   href="https://uniswap.org/"
                   target="_blank"
                   className="w-full flex items-center justify-center px-8 py-6 font-bold
-                  bg-orange-500 hover:bg-orange-400 text-white text-xl tracking-wider border-b-4 border-orange-700 hover:border-orange-900 rounded-lg"
+                  bg-orange-500 hover:bg-orange-400 text-white text-lg xl:text-xl tracking-wider border-b-4 border-orange-700 hover:border-orange-900 rounded-lg"
                 >
                   Buy on Uniswap
                 </a>
@@ -29,7 +29,7 @@ export default function Hero() {
                 <a
                   href="#"
                   className="w-full flex items-center justify-center px-8 py-6 font-bold
-                  bg-orange-500 hover:bg-orange-400 text-white text-xl tracking-wider border-b-4 border-orange-700 hover:border-orange-900 rounded-lg"
+                  bg-orange-500 hover:bg-orange-400 text-white text-lg xl:text-xl tracking-wider border-b-4 border-orange-700 hover:border-orange-900 rounded-lg"
                 >
                   Documentation
                 </a>
@@ -37,7 +37,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+        <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 xl:w-1/2 lg:w-1/3 lg: lg:h-full lg:z-auto">
           <img
             className="absolute h-shiba object-cover sm:pt-16"
             src="./shibaSurf.png"

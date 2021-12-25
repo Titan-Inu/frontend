@@ -2,7 +2,7 @@ import Header from "./header";
 
 export default function Hero() {
   return (
-    <div className=" flex relative bg-blue-400 pb-24 overflow-hidden pl-12 pointer-events-auto ">
+    <div className="flex relative bg-blue-400 pb-24 overflow-hidden pl-12 pointer-events-auto ">
       {/* <div className="relative pt-6">
         <Header />
       </div> */}
@@ -31,7 +31,7 @@ export default function Hero() {
                 <a className="align-middle bg-orange-500 hover:bg-orange-400  pointer-events-auto z-50 cursor-pointer
                 text-white
                 text-center text-xl tracking-wider
-                font-bold py-6 border-b-4 border-orange-700 hover:border-orange-900 rounded-lg" target="_blank" href="https://uniswap.org/">
+                font-bold py-6 border-orange-700 hover:border-orange-900 rounded-lg" target="_blank" href="https://uniswap.org/">
                   Buy on Uniswap
                 </a>
                 <a className=" bg-orange-500 hover:bg-orange-400 text-white pointer-events-auto z-50 cursor-pointer

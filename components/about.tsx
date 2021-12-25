@@ -9,13 +9,12 @@ export default function About() {
                   tracking-wider">
           Origin Story & Ecosystem
         </h1>
-        <p className="mt-6 text-lg tracking-wide font-semibold w-1/2 leading-7">
+        <p className="mt-6 text-lg tracking-wide font-semibold w-1/2 leading-7 z-10">
         Shiba Inu was peering into the metaverse and was soon sucked through his computer like tron legacy and landed on an island in the metaverse. As he spent days on the island, making fires and hunting, he began to become very bored. One day he woke up and saw a dolphin riding the waves... That is when he decided to cut down a palm tree and create a surfboard. He then rode the metawaves of the virtual universe. 
         </p>
       
-        <div className="flex justify-end w-full relative bottom-64  ">
-          <img src='/wave.png' alt='wave.png' className="h-wave" />
-
+        <div className="flex justify-end w-full relative lg:bottom-28 lg:left-4">
+          <img src='/wave.png' alt='wave.png' className="h-wave " />
         </div>
       </div>
       </div>

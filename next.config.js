@@ -7,5 +7,5 @@ module.exports = {
   
       return config;
     },
- 
+    distDir: 'build',
   };

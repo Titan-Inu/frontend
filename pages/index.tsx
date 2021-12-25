@@ -2,7 +2,7 @@
 import Hero from "../components/hero";
 import Nav from "../components/nav";
 import About from "../components/about";
-import Tokenomics from '../assets/tokenomics'
+
 
 export default function Index() {
   return (

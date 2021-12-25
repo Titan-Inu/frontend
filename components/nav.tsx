@@ -51,7 +51,7 @@ export default function Nav() {
                             <a
                                 key={item.name}
                                 href={item.href}
-                                className = 'text-white hover:underline text-md '
+                                className = 'text-white font-semibold hover:underline text-md '
                             >
                                 {item.name}
                             </a>

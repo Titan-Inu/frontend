@@ -11,7 +11,7 @@ export default function Index() {
       <Hero/>
       <About/>
      <div className='bg-blue-400 flex justify-center py-32 '>
-      <Tokenomics />
+      <img src='./tokenomics.svg' />
     </div>
     </body>
   );

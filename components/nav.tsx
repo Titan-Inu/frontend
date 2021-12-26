@@ -22,7 +22,7 @@ function classNames(...classes) {
 
 export default function Nav() {
   return (
-    <Disclosure as="nav" className="bg-gray-800 z-90">
+    <Disclosure as="nav" className="z-90">
       {({ open }) => (
         <>
           <div className="mx-auto px-2 sm:px-6 lg:px-6 sm:pt-5 bg-blue-400">

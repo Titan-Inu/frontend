@@ -1,10 +1,13 @@
 export default function Tokenomics() {
+  if (typeof window !== "undefined") {
+    var img =  window.innerWidth < 640 ? "./tokenomics_mobile.svg" : "./tokenomics.svg";
+  }
+
   return (
-    <div className="bg-blue-400 h-screen relative grid place-items-stretch pt-10">
-      <div className="w-5/6 h-5/6 lg: h-3/4 rounded-2xl bg-gradient-to-b from-white to-blue-400 mx-32 flex flex-col items-center gap-y-20">
-          <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-blue-300 to-blue-400 pt-10 font-extrabold text-6xl">$SURFINU</h2>
-        <img src="./tokenomics.svg" className="px-10 pb-10"/>
-      </div>
+    <div id="tokenomics" className="bg-blue-400 sm:pt-10 pb-24">
+          <h2 className="pb-16 sm:pb-24 text-center bg-clip-text text-transparent bg-gradient-to-b from-white to-orange-400 pt-10 font-extrabold text-5xl sm:text-6xl  sm:pr-16">$SURFINU</h2>
+        <img src={img} className="px-10 pb-10"/>
+    
     </div>
   );
 }

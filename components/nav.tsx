@@ -7,13 +7,14 @@ import {
   faTwitter,
   faTelegramPlane,
   faDiscord,
+  faMedium,
 } from "@fortawesome/free-brands-svg-icons";
 import SocialCircle from "./socialCircle";
 
 const navigation = [
-  { name: "Tokenomics", href: "#" },
-  { name: "Story", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Tokenomics", href: "#tokenomics" },
+  { name: "Story", href: "#story" },
+  { name: "Community", href: "#community" },
 ];
 
 function classNames(...classes) {
@@ -60,22 +61,22 @@ export default function Nav() {
                 </div>
 
                 <div className="flex items-center space-x-2 sm:space-x-6 justify-self-end self-end">
-                  <SocialCircle icon={faTwitter} />
-                  <SocialCircle icon={faDiscord} />
-                  <SocialCircle icon={faTelegramPlane} />
+                  <SocialCircle icon={faTwitter} href="https://twitter.com/SurferInu"/>
+                  <SocialCircle icon={faMedium} href="https://medium.com/" />
+                  <SocialCircle icon={faTelegramPlane} href="https://telegram.org/"/>
                 </div>
               </div>
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden bg-blue-900 ">
+          <Disclosure.Panel className="sm:hidden bg-blue-400">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
                   as="a"
                   href={item.href}
-                  className="text-white hover:underline text-md lg:text-lg block px-3 py-2 rounded-md font-medium"
+                  className="text-white hover:underline tracking-wide text-md lg:text-lg block px-3 py-2 rounded-md font-medium"
                 >
                   {item.name}
                 </Disclosure.Button>

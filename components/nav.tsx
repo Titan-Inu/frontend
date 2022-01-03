@@ -41,9 +41,17 @@ export default function Nav() {
               </div>
               <div className="flex flex-grow justify-between sm:items-center sm:px-10 ">
                 <div>
-                  <h1 className="ml-12 sm:ml-0 font-extrabold text-2xl text-white">
+
+                  <img
+                    className="ml-12 h-12 w-12 sm:h-16 sm:w-16"
+                    src="./logo.png">
+                  </img>
+   
+                  {/* <h1 className="ml-12 sm:ml-0 font-extrabold text-2xl text-white flex flex-row">
                     SURFER INU
-                  </h1>
+                    
+                  </h1> */}
+                 
                 </div>
 
                 <div className="hidden md:block ">
